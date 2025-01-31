@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    background-color: #1a1a1a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
+
+#Expense-tracker{
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+#Expense-tracker h1{
+    margin-bottom: 20px;
+}
+
+#expenses-form{ 
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 10px;
+}   
+
+#expenses-form input{
+    background-color: #333;
+    color: white;
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+#expenses-btn{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#expenses-btn:hover{
+    background-color: darkblue;
+    cursor: pointer;
+}   
+
+
+#expense2{ 
+    margin-bottom: 5px;
+}
+
+.show-expenses{ 
+    background-color: #333; 
+    border-radius: 5px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);    
+    padding: 10px;  
+    margin-bottom: 10px;    
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.show-expenses p{   
+    font-size: 16px;    
+    margin-right: 10px;                     
+}
+
+#expenses-container button{    
+    background-color: red;    
+    color: white;    
+    padding: 5px;    
+    border: none;    
+    border-radius: 5px;    
+    font-size: 16px;    
+    cursor: pointer;    
+}   
+
+#expenses-container button:hover{    
+    background-color: darkred;    
+    cursor: pointer;    
+}
+
+.hidden{
+    display: none;
+}
